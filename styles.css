@@ -2,6 +2,43 @@ html {
     font-size: 100%;
     background-color: black;
     color: white;
-    margin: 0 auto;
 
+}
+
+.header {
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    width: 50vw;
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.header p {
+    font-size: .8em;
+}
+
+.content {
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    width: 40vw;
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.content p {
+    font size: .7em;
+}
+
+.list {
+    display: table;
+    box-sizing: border-box;
+    font-size: 120%;
+    height: 320px;
+    width: auto;
+    max-width: fit-content;
+    margin: 0 auto;
 }
